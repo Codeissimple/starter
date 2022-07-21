@@ -102,5 +102,20 @@ console.log(yearsUntilRetirement(1950, "Mike"));
 
 //Coding challenge Part 2 challenge #1
 
-const calcAverage = (game1, game2, game3) => (game1 + game2 +game3) / 3;
-console.log(calcAverage(78,89,130));
+const calcAverage = (game1, game2, game3) => (game1 + game2 + game3) / 3;
+ 
+let avgDolphins = calcAverage(44,23,71);
+let avgKoalas = calcAverage(65,54,49);
+
+function checkWinner(avgDolphins, avgKoalas) {
+    if(avgDolphins >= 2 * avgKoalas){
+        console.log(`Dolphin win! ${avgDolphins}`);
+    }else if(avgKoalas >= 2* avgDolphins) {
+        console.log(`Koalas win! ${avgKoalas}`);
+    }else{
+        console.log('Neither wins');
+    }
+}
+
+console.log(checkWinner(avgDolphins, avgKoalas));
+console.log(checkWinner(576, 112));
