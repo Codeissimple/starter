@@ -72,7 +72,7 @@ function fruitProcessor(apples, oranges) {
 }
 
 console.log(fruitProcessor(2, 3));
-*/
+
 
 //37 Reviewing functions
 
@@ -95,7 +95,12 @@ const yearsUntilRetirement =function (birthYear, firstName) {
 
 }
 
+
 console.log(yearsUntilRetirement(1990, "John"));
 console.log(yearsUntilRetirement(1950, "Mike"));
+*/
 
+//Coding challenge Part 2 challenge #1
 
+const calcAverage = (game1, game2, game3) => (game1 + game2 +game3) / 3;
+console.log(calcAverage(78,89,130));
