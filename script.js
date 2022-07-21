@@ -88,7 +88,7 @@ const yearsUntilRetirement =function (birthYear, firstName) {
         return retirement;
 
     }else{
-        console.log(`${firstName} already retired!`)
+        console.log(`${firstName} already retired!`) 
         return -1;
 
     }
